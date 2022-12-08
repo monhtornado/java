@@ -10,11 +10,19 @@ class Person {
   
     public int x;
     public int y;
+    public int t_id;
+    public String time;
+    public String name;
+    public int img_id;
   
-    public Person(int x, int y)
+    public Person(int x, int y, int t_id, String time, String name, int img_id)
     {
         this.x = x;
         this.y = y;
+        this.t_id = t_id;
+        this.time = time;
+        this.name = name;
+        this.img_id = img_id;
     }
   
     
